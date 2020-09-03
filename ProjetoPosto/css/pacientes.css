@@ -1,0 +1,85 @@
+#destaque{
+
+    color: black;
+}
+.barraLateral{
+    width: 300px;
+    height: 1000px;
+    top: 146px;
+    background-color: #ffffff;
+    position: absolute;
+    border-right: solid;
+    border-color: #E9E9E9;
+    border-width: 0.5px;
+}
+/*=================================*/
+.formulario{
+
+    position: absolute;
+    margin-top: 15px;
+    left: 25%;
+}
+.border{/*CLASSE DO FIELDSET. COLOQUEI PRA AJUSTAR COM PARÂMETRO DO BOOTSTRAP(p-4)PESQUISAR MELHOR*/
+
+    width: 900px;
+}
+.legend{
+
+    font-style: italic;  
+    width:auto;
+}
+.form-group{
+
+    width:600px;
+    margin-bottom:55px;
+    
+}
+.inputNome{
+
+    margin-left: 5px;
+}
+.inputDataDeNascimento{
+
+    margin-left: 5px;    
+}
+.selectSexo{
+
+    width: 10px;
+}
+
+.iconTrash img{
+
+    width: 34px;
+    height: 35px;
+    top:95px;
+    right: 100px;
+    position: absolute;
+
+}
+.iconEdit img{
+
+    width: 34px;
+    height: 35px;
+    right: 230px;
+    top:95px;
+    position: absolute;
+    
+
+}
+/*=============================
+BOTÕES INFERIORES*/
+.btnGrupo{
+
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.salvar{
+
+    margin-left: 5px;
+    width: 130px;
+}
+.cancelar{
+
+    margin-left: 5px;
+    width: 130px;
+}

@@ -1,0 +1,72 @@
+body{
+
+    margin: 0;
+}
+/*=================================
+
+PARTE DO FORMULÁRIO*/
+.formulario{
+
+    margin-left: 310px;
+    margin-top:15px ;
+}
+fieldset{/*CLASSE DO FIELDSET. COLOQUEI PRA AJUSTAR COM PARÂMETRO DO BOOTSTRAP(p-4)PESQUISAR MELHOR*/
+
+    width: 867px;
+}
+.legend{
+
+    font-style: italic;  
+    width:auto;
+}
+.form-group{
+
+    width:430px;
+    margin-bottom:55px;
+    
+}
+.inputNome{
+
+    margin-left: 5px;
+    
+}
+.inputDataDeNascimento{
+
+    margin-left: 5px;    
+}
+.selectSexo{
+
+    width: 10px;
+}
+
+
+/*=============================
+BOTÕES DE SALVAMENTO*/
+
+.botoesSalvarForm{
+
+    height: 38px;
+    margin-top:32px;
+
+}
+/*=============================
+BOTÕES INFERIORES*/
+.btnGrupo{
+
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.salvar{
+
+    width: 130px;
+}
+.cancelar{
+
+    margin-left: 5px;
+    width: 130px;
+}
+/*======================
+LISTGEM DE USUÁRIOS*/
+.listagemDeUsuarios{
+    margin-left: 310px;
+} 

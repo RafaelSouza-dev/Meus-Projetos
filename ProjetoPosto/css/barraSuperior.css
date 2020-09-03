@@ -1,0 +1,63 @@
+header{
+
+    padding: 32px 15px;
+    border-bottom: solid;
+    border-width: 0.5px;
+    border-color: #E9E9E9;  
+}
+header h1{
+
+    margin-left:100px;
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    width:480px;
+}
+.logoTopo img{
+
+    left: 0.5cm; 
+    top: 03px;
+    position: absolute;
+    height: 90px;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    padding:20px;
+}
+.navbarPrincipal{
+
+    width: 550px;
+    height: 100px;
+    right:0px;
+    top:0px;
+    position: absolute;
+    
+}
+.navbarPrincipal a{
+
+    color: black;
+}
+.navbarPrincipal #home{
+
+    color: #02f802;
+}
+.navbarPrincipal img{
+
+    height: 60px;
+    right: 1.6cm;
+    transform: translateY(-05%);
+    border-radius: 50%;
+}
+.imgPrincipal{
+
+    max-width:1500px;
+    height:525px;    
+}
+.imgPrincipal img{
+
+    transform: translateY(-16%);
+    height:auto;
+    max-width: 100%;
+   
+}
