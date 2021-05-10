@@ -1,27 +1,26 @@
-    <?php
-include "Acs.class.php";
+<?php
 
 Class Usuario{
 
     private $nome;
     private $matricula;
-    private $login;
     private $nivelUsuario;
     private $senhaUsuario;
-    private $registroGeral;
-    private $cadastroPF;
+    private $RG;
+    private $CPF;
     private $dataNascimento;
+    private $dataAdmissao;
 
-    public function __construct($nome,$login,$matricula,$nivel,$senha,$rg,$cpf,$nascimento){
+    public function __construct($nome,$matricula,$nivel,$senha,$rg,$cpf,$nascimento,$admissao){
 
         $this ->nome = $nome;
-        $this->login = $login;
         $this->matricula = $matricula;
         $this ->nivelUsuario = $nivel;
         $this ->senhaUsuario  = $senha;
-        $this ->registroGeral  = $rg;
-        $this ->cadastroPF  = $cpf;
+        $this ->RG  = $rg;
+        $this ->CPF  = $cpf;
         $this ->dataNascimento  = $nascimento;
+        $this->daraAdmissao = $admissao;
 
     }
     
@@ -50,16 +49,16 @@ Class Usuario{
         $this->senhaUsuario = $s;
     }
     public function getRG(){
-        return $this->registroGeral;
+        return $this->RG;
     }
     public function setRG($rg){
-        $this->registroGeral = $rg;
+        $this->rRG = $rg;
     }
     public function getCPF(){
-        return $this->cadastroPF;
+        return $this->CPF;
     }
     public function setCPF($cpf){
-        $this->cadastroPF = $cpf;
+        $this->CPF = $cpf;
     }
     public function getDataNascimento(){
         return $this->dataNascimento;
@@ -73,12 +72,13 @@ Class Usuario{
     public function setMatricula($m){
         $this->matricula = $m;
     }
-    public function getLogin(){
-        return $this->login;
+    public function getAdmissao(){
+        return $this->dataAdmissao;
     }
-    public function setLogin($l){
-        $this->login = $l;
+    public function setAdmissao($admissao){
+        $this->dataAdmissao = $admissao;
     }
+
     public function addUsuario(){
 
     }

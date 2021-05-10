@@ -1,0 +1,145 @@
+.containerPrincipal{
+
+    margin-top: 15px;
+    margin-left:200px;
+}
+.containerPrincipal img{
+
+    width: 130px;
+
+}
+.input-group{
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-bottom: 30px;
+    transform: translate(-50% , -60%);
+    
+}
+#button-addonPesquisarFamilia{
+
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;    
+}
+#button-addonListarFamilia{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.barraLateralMenu a{
+
+    margin-left: 15px;
+    line-height: 55px;
+}
+.barraLateralMenu a:hover{
+
+    text-decoration: none;
+    color: gray;
+}  
+.legend{
+
+    width:auto;
+    font-style: italic;  
+    
+}
+fieldset{
+
+    width: 750px;
+    border-radius: 5px;
+    position: relative;
+   
+}
+
+/*  INÍCIO DA PARTE DE MOSTRAR A PESQUISA */
+.mostrarPaciente{
+
+    margin-top: 35px;
+    margin-left:200px;
+}
+.containerInfo{
+    display: flex;
+    width: 720px;
+}
+#info2{
+    margin-left: 190px;
+}
+span{
+    color:#007BFF
+}
+#red /*span*/{
+    color:#dc3545 ;
+}
+.dataPesagem{
+
+    margin-bottom: 15px;
+}
+.btnFechar{
+    border: none;
+    background-color: #fff;
+    color: gray;
+    transform: translate(35% ,-60%);
+    float: right;
+}
+.btnFechar:hover{
+    color: #dc3545;
+    border-radius: 5px;
+    transition-duration: 0.2s;
+}
+.btnInserirDados{
+
+    color: #218838;
+    border: none;
+    background-color: #fff;
+    margin-top: 5px;
+    margin-left: 250px;
+}
+.btnInserirDados:hover{
+
+    background-color:#218838;
+    color: #fff;
+    border-radius: 5px;
+    transition-duration:0.5s;
+    
+}
+.btnEditar{
+    background-color: #fff;
+    border: none;
+}
+.btnExcluir{
+    background-color: #fff;
+    border: none;
+}
+.btnSalvar{
+    margin-top: 10px;
+}
+.btnCancelar{
+    margin-top: 10px;
+}
+#btnAddDependente{
+    border: none;
+    background-color: #fff;
+    color: #007BFF;
+    
+}
+.btnRemoverDependente{
+    border: none;
+    background-color: #fff;
+    color:#dc3545;
+}
+
+.form-group{
+
+    padding: 10px;
+}
+
+/*INÍCIO DA LISTAGEM*/
+.filtrar{
+    margin-top: 35px;
+    margin-left:290px;
+}
+.listagem{
+    margin-top: 35px;
+    margin-left:290px;
+}

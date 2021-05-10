@@ -1,18 +1,51 @@
 body{
-
     margin: 0;
 }
-#imagemBrasao{
+.backGround{
 
-    height: 90px;
-    margin-left: 95px;
+    width: 100vw; /* view width*/
+    height: 100vh; /* view height */
+    background: url(../img/medico3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*  BARRA SUPERIOR  */
+.parteSuperior{
+
+    padding: 32px 15px;    
+}
+h1{
+
+    margin-left:100px;
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    width:480px;
+}
+.parteSuperior a{
+    color: black;
+    float: right;
+    transform: translateY(-300%);
+}
+.verde{
+
+    color:#5cb85c ;
+}
+
+/*MODAL */
+h4{
+
+    margin-left: 105px;
     margin-top: 10px;
+    margin-bottom: 30px;
 }
 .login{
 
     position: absolute;
-    left: 50%;
-    transform: translate(-50%,35%);
+    right: 60px;
+    top:70px;
     background-color: #FFFFFF;
     height: 350px;
     width: 280px;
@@ -20,6 +53,7 @@ body{
     border: solid;
     border-width: 0.5px;
     border-color: gray;
+    opacity: 0.8;
     /*box-shadow: 1px  4px 4px;*/
 }
 form{
@@ -40,30 +74,5 @@ form input[type="text"],[type="password"],[type="submit"]{
    margin-left: 25px; 
 
 }
-form input[type="text"],[type="password"]{
 
-    border: none;
-    border-bottom: 1px solid gray;
-    margin-bottom: 10px;
-    outline: none;
 
-}
-
-form button{
-
-    border: none;
-    width: 170px;
-    height: 38px;
-    border-radius: 38px;
-    background-color:#754EF9;
-    color: #FFFFFF;
-    
-}
-form button:hover{
-
-    background-color: #02f802;
-}
-.mensagem{
-    text-align: center;
-    color:rgb(240, 30, 30);
-}

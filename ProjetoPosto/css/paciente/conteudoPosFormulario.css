@@ -1,0 +1,17 @@
+.conteudoPosFormulario{
+
+    margin-left: 180px;
+    margin-bottom: 30px;
+}
+fieldset{
+
+    width: 735px;
+}
+.info{
+
+    display: flex;
+}
+.infoPart2{
+
+    margin-left: 190px;
+}

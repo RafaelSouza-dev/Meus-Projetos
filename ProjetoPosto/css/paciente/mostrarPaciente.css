@@ -1,0 +1,28 @@
+.mostrarPaciente{
+    margin-left:175px;
+    margin-top: 35px;
+}
+fieldset{
+
+    width: 867px;
+    border-radius: 5px;
+}
+.legend{
+    width: auto;
+    text-align: center;
+    
+}
+span{
+    color:#007BFF
+}
+#red /*span*/{
+    color:#dc3545;
+}
+.btnEditar{
+    background-color: #fff;
+    border: none;
+}
+.btnExcluir{
+    background-color: #fff;
+    border: none;
+}

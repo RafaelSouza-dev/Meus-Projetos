@@ -1,0 +1,70 @@
+.containerPrincipal{
+
+    display: flex;
+
+}
+.containerPrincipal img{
+
+    width: 90px;
+}
+.dadosAcs{
+
+    margin-left: 40px;
+    margin-top: 60px;
+    background-color: #fff;
+    color: gray;
+    padding: 10px 30px;
+    border: solid;
+    border-width: 0.5px;
+    border-color: #e9e9e9;
+    border-radius: 10px;
+}
+.dadosAcs:hover{
+
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.08);
+    transition-duration: 0.1s;
+
+}
+.dadosAcs label{
+
+    padding: 15px 40px;
+
+}
+#dadosPerfil{
+
+    color: gray;
+    border: solid;
+    border-width: 0.5px;
+    border-color: #e9e9e9;
+    border-radius: 10px;
+    width: 900px;
+    height: 300px;
+    margin-left: 80px;
+    padding: 1px 50px;
+    margin-top: 60px;
+    line-height: 60px;
+    background:url(../../img/planodefundoSaude3.png);
+    background-repeat: no-repeat;
+    background-position:150px;
+}
+#dadosPerfil:hover{
+
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.08);
+    transition-duration: 0.1s;
+}
+#dadosPerfil h4{
+    color:gray;
+    width: 700px;
+}
+#dadosPerfil img{
+
+    width: 200px;
+    position: absolute;
+    top:165px;
+    left:450px;
+    border-radius: 100px;
+}
+span{
+
+    color:#007BFF;
+}
